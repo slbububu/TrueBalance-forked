@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+    --color-ocean-petrol: #002E3C;
+    --font-display: "Gotham", sans-serif;
+}
