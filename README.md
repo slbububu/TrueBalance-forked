@@ -51,10 +51,12 @@ We will be creating two triggers, called 'deploy-api' and 'deploy-frontend'
 5. Select the newly created dataset as the dataset for this table
 6. Set the table name as 'my_test_table'
 7. Set the table fields under 'Schema' as follows:
+
 | Field Name | Type    | Mode     |
-| ---------- | ------- | -------- |
-| ID         | STRING  | NULLABLE |
-| Name       | STRING  | NULLABLE |
-| BirthDate  | DATETIME| NULLABLE |
-| Country    | STRING  | NULLABLE |
+|-----------|---------|----------|
+| ID        | STRING  | NULLABLE |
+| Name      | STRING  | NULLABLE |
+| BirthDate | DATETIME| NULLABLE |
+| Country   | STRING  | NULLABLE |
+
 8. Click on 'Create table'
