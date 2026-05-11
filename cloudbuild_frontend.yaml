@@ -1,4 +1,12 @@
 steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    id: 'set .env file'
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        touch ./frontend/.env
+        echo "${_PROJECT_NUMBER}" > ./frontend/.env
   - name: 'gcr.io/cloud-builders/docker'
     id: 'build docker package'
     args: [
