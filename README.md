@@ -1,7 +1,6 @@
 # StudentProject
 This is a simple template project for GCP, which:
-  - Uses a **Cloud Function** written in python to fetch data stored in a **BigQuery table**
-  - Displays the fetched data in a frontend hosted as a **Docker** container in **Cloud Run**
+  - Has an API and Frontend hosted separately in **Docker** containers in **Cloud Run**
   - Automatically sends information about new commits to **Cloud Build**, which deploys the code
 
 ## Fork
